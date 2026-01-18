@@ -61,3 +61,17 @@ nav .navbar .links ul li a {
 nav .navbar .hamburger-menu {
   display: none;
 }
+
+/* Media Query */
+@media screen and (max-width: 576px) {
+
+  /* Navbar Styles */
+  nav .navbar .links,
+  .btn-primary {
+    display: none;
+  }
+
+  nav .navbar .hamburger-menu {
+    display: block;
+  }
+}
