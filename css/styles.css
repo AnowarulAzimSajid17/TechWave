@@ -6,3 +6,58 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+/* Header Styles */
+
+/* Navbar Section */
+nav .navbar {
+  background-color: rgba(26, 11, 46, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 0px 15px;
+}
+
+nav .navbar .logo h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+
+nav .navbar .logo #logo {
+  background: linear-gradient(48deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 50%, rgba(145, 0, 248, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+nav .navbar .links ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+nav .navbar .links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10000px;
+  background: linear-gradient(48deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 50%, rgba(145, 0, 248, 1) 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav .navbar .hamburger-menu {
+  display: none;
+}
