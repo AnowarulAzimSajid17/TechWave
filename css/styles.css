@@ -187,7 +187,7 @@ nav .navbar .hamburger-menu {
 
 /* Featured Styles */
 .featured-container {
-  padding: 120px 120px 120px;
+  padding: 80px 80px 80px;
   background-color: rgba(26, 11, 46, 1);
 }
 
@@ -234,6 +234,51 @@ nav .navbar .hamburger-menu {
   color: #00FF88;
 }
 
+/* Guest Styles */
+.guest-container {
+  margin-top: 120px;
+}
+
+.guest-container h3 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.guest-content {
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+  padding: 40px 40px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.guest-text {
+  color: white;
+}
+
+.guest-text h4 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.guest-text p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.guest-text i {
+  background: linear-gradient(48deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 50%, rgba(145, 0, 248, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+}
+
+
 /* Media Query */
 @media screen and (max-width: 576px) {
 
@@ -267,5 +312,18 @@ nav .navbar .hamburger-menu {
   .about-cards {
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
+  }
+
+  /* Featured Styles */
+  .featured-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Guest Styles */
+  .guest-content {
+    flex-direction: column;
+    padding: 10px 10px;
+    text-align: center;
   }
 }
