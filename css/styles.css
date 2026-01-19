@@ -154,4 +154,13 @@ nav .navbar .hamburger-menu {
     display: block;
   }
 
+  /* Hero Styles */
+  .hero-container .hero-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-container .hero-content h3 {
+    font-size: 40px;
+  }
 }
