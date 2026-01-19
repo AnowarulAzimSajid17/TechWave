@@ -281,6 +281,41 @@ nav .navbar .hamburger-menu {
   font-size: 20px;
 }
 
+footer {
+  background: url(../assets/footer-bg.png);
+  padding-top: 150px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+footer h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+
+footer h3 #footer-logo {
+  background: linear-gradient(48deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 50%, rgba(145, 0, 248, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  color: white;
+}
+
+footer p {
+  margin-top: 32px;
+  font-weight: 400;
+  color: white;
+}
+
 
 /* Media Query */
 @media screen and (max-width: 576px) {
@@ -342,5 +377,11 @@ nav .navbar .hamburger-menu {
 
   .guest-content .guest-text p {
     word-wrap: break-word;
+  }
+
+  /* Footer Styles */
+  .logo-container {
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }
