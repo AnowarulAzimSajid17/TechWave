@@ -76,8 +76,8 @@ nav .navbar .hamburger-menu {
 
 .hero-container .hero-img {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   bottom: 10%;
 }
 
@@ -141,6 +141,99 @@ nav .navbar .hamburger-menu {
   font-weight: 600;
 }
 
+/* Main Styles */
+
+/* About Styles */
+.about-container {
+  background-color: rgba(26, 11, 46, 1);
+  padding: 50px 200px 120px;
+}
+
+.about-container .about-content {
+  color: white;
+  text-align: center;
+}
+
+.about-container .about-content h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.about-container .about-content p {
+  font-size: 16px;
+  margin-bottom: 100px;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 0 auto;
+}
+
+.about-cards .card h3 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #00FF88;
+}
+
+.about-cards .card p {
+  font-size: 16px;
+  color: white;
+}
+
+/* Featured Styles */
+.featured-container {
+  padding: 120px 120px 120px;
+  background-color: rgba(26, 11, 46, 1);
+}
+
+.featured-container h3 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.featured-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.featured-card iframe {
+  border-radius: 24px 24px 0px 0px;
+  width: 500px;
+}
+
+.featured-card .content {
+  background-color: rgba(37, 13, 68, 1);
+  width: 500px;
+  border-radius: 0px 0px 24px 24px;
+  padding: 24px 24px;
+}
+
+.featured-card .content h4 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.featured-card .content p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.featured-card .content h5 {
+  color: #00FF88;
+}
+
 /* Media Query */
 @media screen and (max-width: 576px) {
 
@@ -162,5 +255,17 @@ nav .navbar .hamburger-menu {
 
   .hero-container .hero-content h3 {
     font-size: 40px;
+  }
+
+  /* Main Styles */
+
+  /* About Styles */
+  .about-container {
+    padding: 50px 40px 100px;
+  }
+
+  .about-cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
   }
 }
